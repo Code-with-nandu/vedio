@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player with Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .notes {
+            margin-top: 20px;
+        }
+        .notes h2 {
+            margin-top: 0;
+        }
+        .note-entry {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Video Player with Notes</h1>
+
+        <!-- Video Player -->
+        <video controls>
+            <source src="Ch1 Aws Cloud  host php mysql website on aws ec2  in hindi  http to https aws  free ssl.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Notes Section -->
+        <div class="notes">
+            <h2>Notes</h2>
+            <div class="note-entry">
+                <p><strong>Note 1:</strong> This is where you can add a note about the video.</p>
+            </div>
+            <div class="note-entry">
+                <p><strong>Note 2:</strong> Add additional notes or observations here.</p>
+            </div>
+            <!-- You can add more notes in the same format -->
+        </div>
+    </div>
+</body>
+</html>
